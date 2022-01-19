@@ -1,7 +1,7 @@
 # Job-Matching-System
 This job matching system matches employers and applicants together in a job search. This rank/match system is implemented in Java using the [Gale-Shapley algorithm](https://en.wikipedia.org/wiki/Gale%E2%80%93Shapley_algorithm) that guarantees that every employer and applicant will obtain the optimal choice based on their employer/applicant rankings.
 
-## What problem does this system solve?
+# What problem does this system solve?
 Suppose we have 3 employers each looking to hire 1 new employee, and 3 employees each looking to join 1 company. The names of the 3 companies are Thales, Canada Post, and Cisco; and the names of the 3 applicants are Olivia, Jackson, and Sophia. Each company ranks the applicant they want to hire from best to worst; likewise, each applicant ranks the company they want to be in from best to worst.
 
 Two ranking lists are provided (0 is best, 2 is worst).
@@ -32,7 +32,7 @@ This means that Thales wants Olivia first. If they can't get Olivia, their next 
 
 This matching result is stable as there is no other matching that would be fair for every company and applicant. Let's take a look at how it works.
 
-## How it works
+# How it works
 Two lists are provided: _employer preferences_ and _applicant preferences_. The number of employers must be the same as the number of applicants. For example,
   - If there are 100 companies looking to hire new employees, a list of 100 applicants must also be provided.
   - A company will rank all of the applicants from best to worst, and vice versa.
@@ -41,6 +41,9 @@ Two lists are provided: _employer preferences_ and _applicant preferences_. The 
 Similar to the [Stable Marriage problem](https://en.wikipedia.org/wiki/Stable_marriage_problem), this employer-applicant ranking system is implemented using the [Gale-Shapley algorithm](https://en.wikipedia.org/wiki/Gale%E2%80%93Shapley_algorithm) to optimally produce the results.
 
 Example data sets are included in this repository as well as corresponding output files that show the optional employer-applicant matchings.
+
+# How to use the application
+Format the input text file in the same way that the test files are formatted, with the total number of employers/applicants being indicated in the first line of the text file. Build and run the ```GaleShapley.java``` file.
 <!--
 ```diff
 - text in red
