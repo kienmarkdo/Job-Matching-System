@@ -33,13 +33,14 @@ This means that Thales wants Olivia first. If they can't get Olivia, their next 
 This matching result is stable as there is no other matching that would be fair for every company and applicant. Let's take a look at how it works.
 
 ## How it works
-There will be two lists: Employer Preferences and Applicant Preferences. The number of employers must be the same as the number of applicants. For example,
+Two lists are provided: _employer preferences_ and _applicant preferences_. The number of employers must be the same as the number of applicants. For example,
   - If there are 100 companies looking to hire new employees, a list of 100 applicants must also be provided.
   - A company will rank all of the applicants from best to worst, and vice versa.
-  - Once all rankings are made, the data will be processed and the application will produce an output with all the stable employer-applicant matchings.
+  - Once all rankings are made, the data will be processed and the system will produce an output file with all the stable employer-applicant matchings.
+
 Similar to the [Stable Marriage problem](https://en.wikipedia.org/wiki/Stable_marriage_problem), this employer-applicant ranking system is implemented using the [Gale-Shapley algorithm](https://en.wikipedia.org/wiki/Gale%E2%80%93Shapley_algorithm) to optimally produce the results.
 
-Example data sets are provided as well as output files that shows the optional matching to all employers and applicants.
+Example data sets are included in this repository as well as corresponding output files that show the optional employer-applicant matchings.
 <!--
 ```diff
 - text in red
