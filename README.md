@@ -1,5 +1,5 @@
 # Job-Matching-System
-This job matching system matches employers and applicants together in a job search. This rank/match system is implemented using an algorithm that guarantees that every employer and applicant will obtain the optimal choice based on their employer/applicant rankings.
+This job matching system matches employers and applicants together in a job search. This rank/match system is implemented using the Gale-Shapeley algorithm that guarantees that every employer and applicant will obtain the optimal choice based on their employer/applicant rankings.
 
 ## What problem does this system solve?
 Suppose we have 3 employers each looking to hire 1 new employee, and 3 employees each looking to join 1 company. The names of the 3 companies are Thales, Canada Post, and Cisco; and the names of the 3 applicants are Olivia, Jackson, and Sophia. Each company ranks the applicant they want to hire from best to worst; likewise, each applicant ranks the company they want to be in from best to worst.
