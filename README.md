@@ -1,5 +1,5 @@
 # Job-Matching-System
-This job matching system matches employers and applicants together in a job search. This rank/match system is implemented using the Gale-Shapeley algorithm that guarantees that every employer and applicant will obtain the optimal choice based on their employer/applicant rankings.
+This job matching system matches employers and applicants together in a job search. This rank/match system is implemented using the Gale-Shapley algorithm that guarantees that every employer and applicant will obtain the optimal choice based on their employer/applicant rankings.
 
 ## What problem does this system solve?
 Suppose we have 3 employers each looking to hire 1 new employee, and 3 employees each looking to join 1 company. The names of the 3 companies are Thales, Canada Post, and Cisco; and the names of the 3 applicants are Olivia, Jackson, and Sophia. Each company ranks the applicant they want to hire from best to worst; likewise, each applicant ranks the company they want to be in from best to worst.
@@ -26,6 +26,6 @@ There will be two lists: Employer Preferences and Applicant Preferences. The num
   - If there are 100 companies looking to hire new employees, a list of 100 applicants must also be provided.
   - A company will rank all of the applicants from best to worst, and vice versa.
   - Once all rankings are made, the data will be processed and the application will produce an output with all the stable employer-applicant matchings.
-Similar to the Stable Marriage problem (https://en.wikipedia.org/wiki/Stable_marriage_problem), this employer-applicant ranking system is implemented using the Gale-Shapeley algorithm (https://en.wikipedia.org/wiki/Gale%E2%80%93Shapley_algorithm) to optimally produce the results.
+Similar to the Stable Marriage problem (https://en.wikipedia.org/wiki/Stable_marriage_problem), this employer-applicant ranking system is implemented using the Gale-Shapley algorithm (https://en.wikipedia.org/wiki/Gale%E2%80%93Shapley_algorithm) to optimally produce the results.
 
 Example data sets are provided as well as output files that shows the optional matching to all employers and applicants.
